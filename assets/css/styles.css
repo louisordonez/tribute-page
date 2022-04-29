@@ -54,7 +54,7 @@ body {
     font-size: 25px;
     margin-top: 25px;
     font-weight: lighter;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
 }
 
 #image {
@@ -63,12 +63,12 @@ body {
 }
 
 #image > img {
-    width: 625px;
+    width: 640px;
 }
 
 #img-caption > p {
     padding-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: -35px;
     text-align: center;
     font-size: 25px;
     font-weight: lighter;
