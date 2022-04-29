@@ -71,7 +71,6 @@ body {
     margin-bottom: -35px;
     text-align: center;
     font-size: 25px;
-    font-weight: lighter;
 }
 
 #tribute-info {
@@ -83,6 +82,15 @@ body {
     font-size: 50px;
     text-align: center;
     padding-top: 50px;
+}
+
+#tribute-info > h6 {
+    color: white;
+    font-size: 25px;
+    margin-top: 0;
+    font-weight: lighter;
+    margin-bottom: 40px;
+    text-align: center;
 }
 
 #tribute-link {
@@ -126,36 +134,173 @@ body {
     padding-bottom: 25px;
 }
 
+#creations-container > h6 {
+    font-size: 25px;
+    margin-top: -25px;
+    font-weight: lighter;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
 #creations-items-container {
-    width: 100%;
-	margin: 0 auto;	
-	display: flex;
+    display: flex;
+}
+
+#creations-item-1, #creations-item-2, #creations-item-3, #creations-item-4 {
+    flex: 1;
+    text-align: center;
 }
 
 #creations-item-1 {
-    padding: 10px;
-	flex: 1;
+    background-color: black;
+    padding-bottom: 75px;
 }
 
-#creations-item-1 > p {
-    margin-top: 0;
-    text-align: left;
-    font-size: 40px;
-    margin: 50px;
+#creations-item-1 > h1 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
 }
 
-#creations-item-2 {
+#creations-item-1 > h6 {
+    color: white;
+    font-size: 25px;
+    margin-top: -25px;
+    font-weight: lighter;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#creations-item-1-link {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#creations-item-1-link > a {
+    text-decoration: none;
+    color: #258CF4;
+    font-size: 20px;
+}
+
+#creations-item-1-link > a:hover {
+    text-decoration: underline;
+    color: #258CF4;
+    font-size: 20px;
+}
+
+#creations-item-1 > img {
+    width: 500px;
+}
+
+#creations-item-2 > h1 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#creations-item-2 > h6 {
+    font-size: 25px;
+    margin-top: -25px;
+    font-weight: lighter;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#creations-item-2-link {
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#creations-item-2-link > a {
+    text-decoration: none;
+    color: #258CF4;
+    font-size: 20px;
+}
+
+#creations-item-2-link > a:hover {
+    text-decoration: underline;
+    color: #258CF4;
+    font-size: 20px;
+}
+
+#creations-item-2 > img {
+    margin-top: -25px;
+    width: 600px;
+}
+
+#creations-item-3 > h1 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#creations-item-3 > h6 {
+    font-size: 25px;
+    margin-top: -25px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#creations-item-3-link {
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#creations-item-3-link > a {
+    text-decoration: none;
+    color: #258CF4;
+    font-size: 20px;
+}
+
+#creations-item-3-link > a:hover {
+    text-decoration: underline;
+    color: #258CF4;
+    font-size: 20px;
+}
+
+#creations-item-3 > img {
+    height: 500px;
+}
+
+#creations-item-4 > h1 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#creations-item-4 > h6 {
+    font-size: 25px;
+    margin-top: -25px;
+    font-weight: lighter;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#creations-item-4-link {
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#creations-item-4-link > a {
+    text-decoration: none;
+    color: #258CF4;
+    font-size: 20px;
+}
+
+#creations-item-4-link > a:hover {
+    text-decoration: underline;
+    color: #258CF4;
+    font-size: 20px;
+}
+
+#creations-item-4 {
     background-color: #F9F9F9;
-    padding: 10px;
-	flex: 1;
 }
 
-#creations-item-2 > p {
-    margin-top: 0;
-    text-align: left;
-    font-size: 40px;
-    margin: 50px;
-    flex: 1
+#creations-item-4 > img {
+    height: 575px;
 }
 
 @media screen and (max-width: 600px) {
