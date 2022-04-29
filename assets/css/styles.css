@@ -11,8 +11,6 @@ body {
 
 #nav-items {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
 }
 
@@ -27,6 +25,12 @@ body {
     padding: 15px 50px;
     text-decoration: none;
 }
+
+@media screen and (max-width: 600px) {
+    #nav-items > li {
+        float: none;
+    }
+  }
 
 #headings {
     padding-top: 50px;
