@@ -57,12 +57,12 @@ body {
     margin-bottom: 40px;
 }
 
-#image {
+#image-container {
     display: flex;
     justify-content: center;
 }
 
-#image > img {
+#image {
     width: 640px;
 }
 
