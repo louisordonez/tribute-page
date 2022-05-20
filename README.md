@@ -1,5 +1,5 @@
 # tribute-page
-This project is a tribute page dedicated to Steve Jobs built using HTML and CSS.
+This project is a tribute page dedicated to Steve Jobs.
 
 ## Tech Stack
 - HTML
