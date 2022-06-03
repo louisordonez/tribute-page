@@ -1,315 +1,318 @@
 body {
-    font-family: Helvetica, Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 #nav-items {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #313132;
-    position: fixed;
-    top: 0;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #313132;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 #nav-items > li {
-    float: left;
+  float: left;
 }
 
 #nav-items > li > a {
-    display: block;
-    color: #D6D6D6;
-    text-align: center;
-    padding: 12px 24px;
-    text-decoration: none;
-    font-size: 12px;
+  display: block;
+  color: #d6d6d6;
+  text-align: center;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-size: 12px;
 }
 
 #nav-items > li > a:hover {
-    color: white;
+  color: white;
 }
 
 #home {
-    background-color: white;
-    color: black;
-    padding-bottom: 50px;
+  background-color: white;
+  color: black;
+  padding-bottom: 50px;
 }
 
 #title-container {
-    padding-top: 50px;
-    text-align: center;
+  padding-top: 50px;
+  text-align: center;
 }
 
 #title {
-    font-size: 50px;
-    margin-bottom: 0;
+  font-size: 50px;
+  margin-bottom: 0;
 }
 
 #title-container > h6 {
-    font-size: 25px;
-    margin-top: 25px;
-    font-weight: lighter;
-    margin-bottom: 40px;
+  font-size: 25px;
+  margin-top: 25px;
+  font-weight: lighter;
+  margin-bottom: 40px;
 }
 
 #image-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #image {
-    width: 640px;
+  width: 640px;
 }
 
 #img-caption > p {
-    padding-top: 10px;
-    margin-bottom: -35px;
-    text-align: center;
-    font-size: 25px;
+  padding-top: 10px;
+  margin-bottom: -35px;
+  text-align: center;
+  font-size: 25px;
 }
 
 #tribute-info {
-    background-color: black;
+  background-color: black;
 }
 
 #tribute-header {
-    color: white;
-    font-size: 50px;
-    text-align: center;
-    padding-top: 50px;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 50px;
 }
 
 #tribute-info > h6 {
-    color: white;
-    font-size: 25px;
-    margin-top: 0;
-    font-weight: lighter;
-    margin-bottom: 40px;
-    text-align: center;
+  color: white;
+  font-size: 25px;
+  margin-top: 0;
+  font-weight: lighter;
+  margin-bottom: 40px;
+  text-align: center;
 }
 
 #tribute-link {
-    margin-top: 20px;
-    text-align: center;
-    margin-bottom: -65px;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: -65px;
 }
 
 #tribute-link > a {
-    text-decoration: none;
-    color: #258CF4;
-    font-size: 20px;
+  text-decoration: none;
+  color: #258cf4;
+  font-size: 20px;
 }
 
 #tribute-link > a:hover {
-    text-decoration: underline;
-    color: #258CF4;
-    font-size: 20px;
+  text-decoration: underline;
+  color: #258cf4;
+  font-size: 20px;
 }
 
 #tribute-text-container {
-    padding-bottom: 1px;
+  padding-bottom: 1px;
 }
 
 #tribute-text-container > p {
-    color: white;
-    text-align: left;
-    font-size: 30px;
-    margin: 100px;
+  color: white;
+  text-align: left;
+  font-size: 30px;
+  margin: 100px;
 }
 
 #creations-container {
-    background-color: white;
+  background-color: white;
 }
 
 #creations-header {
-    color: black;
-    font-size: 50px;
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 #creations-container > h6 {
-    font-size: 25px;
-    margin-top: -25px;
-    font-weight: lighter;
-    margin-bottom: 40px;
-    text-align: center;
+  font-size: 25px;
+  margin-top: -25px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+  text-align: center;
 }
 
 #creations-items-container {
-    display: flex;
+  display: flex;
 }
 
-#creations-item-1, #creations-item-2, #creations-item-3, #creations-item-4 {
-    flex: 1;
-    text-align: center;
+#creations-item-1,
+#creations-item-2,
+#creations-item-3,
+#creations-item-4 {
+  flex: 1;
+  text-align: center;
 }
 
 #creations-item-1 {
-    background-color: black;
-    padding-bottom: 75px;
+  background-color: black;
+  padding-bottom: 75px;
 }
 
 #creations-item-1 > h1 {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: white;
 }
 
 #creations-item-1 > h6 {
-    color: white;
-    font-size: 25px;
-    margin-top: -25px;
-    font-weight: lighter;
-    margin-bottom: 40px;
-    text-align: center;
+  color: white;
+  font-size: 25px;
+  margin-top: -25px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+  text-align: center;
 }
 
 #creations-item-1-link {
-    margin-top: 20px;
-    text-align: center;
-    margin-bottom: 50px;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 #creations-item-1-link > a {
-    text-decoration: none;
-    color: #258CF4;
-    font-size: 20px;
+  text-decoration: none;
+  color: #258cf4;
+  font-size: 20px;
 }
 
 #creations-item-1-link > a:hover {
-    text-decoration: underline;
-    color: #258CF4;
-    font-size: 20px;
+  text-decoration: underline;
+  color: #258cf4;
+  font-size: 20px;
 }
 
 #creations-item-1 > img {
-    width: 500px;
+  width: 500px;
 }
 
 #creations-item-2 > h1 {
-    padding-top: 25px;
-    padding-bottom: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 #creations-item-2 > h6 {
-    font-size: 25px;
-    margin-top: -25px;
-    font-weight: lighter;
-    margin-bottom: 0;
-    text-align: center;
+  font-size: 25px;
+  margin-top: -25px;
+  font-weight: lighter;
+  margin-bottom: 0;
+  text-align: center;
 }
 
 #creations-item-2-link {
-    margin-top: 40px;
-    text-align: center;
-    margin-bottom: 50px;
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 #creations-item-2-link > a {
-    text-decoration: none;
-    color: #258CF4;
-    font-size: 20px;
+  text-decoration: none;
+  color: #258cf4;
+  font-size: 20px;
 }
 
 #creations-item-2-link > a:hover {
-    text-decoration: underline;
-    color: #258CF4;
-    font-size: 20px;
+  text-decoration: underline;
+  color: #258cf4;
+  font-size: 20px;
 }
 
 #creations-item-2 > img {
-    margin-top: -25px;
-    width: 600px;
+  margin-top: -25px;
+  width: 600px;
 }
 
 #creations-item-3 > h1 {
-    padding-top: 25px;
-    padding-bottom: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 #creations-item-3 > h6 {
-    font-size: 25px;
-    margin-top: -25px;
-    font-weight: lighter;
-    margin-bottom: 50px;
-    text-align: center;
+  font-size: 25px;
+  margin-top: -25px;
+  font-weight: lighter;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 #creations-item-3-link {
-    margin-top: 40px;
-    text-align: center;
-    margin-bottom: 25px;
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 #creations-item-3-link > a {
-    text-decoration: none;
-    color: #258CF4;
-    font-size: 20px;
+  text-decoration: none;
+  color: #258cf4;
+  font-size: 20px;
 }
 
 #creations-item-3-link > a:hover {
-    text-decoration: underline;
-    color: #258CF4;
-    font-size: 20px;
+  text-decoration: underline;
+  color: #258cf4;
+  font-size: 20px;
 }
 
 #creations-item-3 > img {
-    height: 500px;
+  height: 500px;
 }
 
 #creations-item-4 > h1 {
-    padding-top: 25px;
-    padding-bottom: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 #creations-item-4 > h6 {
-    font-size: 25px;
-    margin-top: -25px;
-    font-weight: lighter;
-    margin-bottom: 0px;
-    text-align: center;
+  font-size: 25px;
+  margin-top: -25px;
+  font-weight: lighter;
+  margin-bottom: 0px;
+  text-align: center;
 }
 
 #creations-item-4-link {
-    margin-top: 40px;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 25px;
+  margin-top: 40px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
 
 #creations-item-4-link > a {
-    text-decoration: none;
-    color: #258CF4;
-    font-size: 20px;
+  text-decoration: none;
+  color: #258cf4;
+  font-size: 20px;
 }
 
 #creations-item-4-link > a:hover {
-    text-decoration: underline;
-    color: #258CF4;
-    font-size: 20px;
+  text-decoration: underline;
+  color: #258cf4;
+  font-size: 20px;
 }
 
 #creations-item-4 {
-    background-color: #F9F9F9;
+  background-color: #f9f9f9;
 }
 
 #creations-item-4 > img {
-    height: 575px;
+  height: 575px;
 }
 
 @media screen and (max-width: 600px) {
-    #nav-items > li {
-        float: none;
-    }
+  #nav-items > li {
+    float: none;
+  }
 
-    #creations-items-container {
-        flex-flow: column wrap;
-    }
+  #creations-items-container {
+    flex-flow: column wrap;
+  }
 }
