@@ -1,6 +1,6 @@
 # tribute-page
 
-![Screenshot](screenshot.png)
+![Screenshot](./images/screenshot.png)
 
 This project is a tribute page dedicated to Steve Jobs.
 
